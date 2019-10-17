@@ -30,7 +30,7 @@ const deleteCookie = (cname) => {
   document.cookie = cname + '=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 };
 
-// cargar los proyectos
+//Cargar los proyectos
 const loadProjects = () => {
   $.ajax({
     url: "/projects"
